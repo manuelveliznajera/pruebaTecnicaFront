@@ -1,0 +1,150 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #cbcde5aa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.container-report{
+  display: flex;
+  justify-content: space-around;
+  width: 900px;
+}
+
+
+
+.button-container{
+  display: flex;         
+    justify-content: space-between; 
+    background-color: #f0f0f0;
+    border-radius: 8px;    
+   
+}
+
+.btn{
+  padding: 10px 20px;    
+    font-size: 16px;        
+    background-color: #327e05; 
+    color: white;          
+    border: none;           
+    border-radius: 5px;     
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+.btn:hover{
+  background-color: gray;
+  color: white;
+}
+
+.card {
+
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+/* css del formulario */
+
+.form-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #a6a3a3;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #327e05;
+  outline: none;
+}
+
+button {
+  padding: 10px;
+  font-size: 18px;
+  background-color: #327e05;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 5px;
+}
+
+button:hover {
+  background-color: #5cbf22;
+}
+.error{
+  margin: 0;
+  padding: 4px;
+  background-color: red;
+  color: white;
+}
+
+/* diseño de la tabla */
+.table-container {
+  max-width: 100%;
+  overflow-x: auto; 
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  color: #327e05;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.btn-table{
+  background-color: #888;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tr-user{
+  color: #888;
+}
